@@ -11,4 +11,7 @@ boys = bird / 3
 Serezha = boys / 2
 Petya = Serezha
 Katya = (Serezha + Petya) * 2
-print (f' Петя сделал {Petya} журавликов, Сережа сделал {Serezha} журавликов ,Катя сделала {Katya} журавликов')
+if bird < 61:
+    print (f' Петя сделал {Petya} журавликов, Сережа сделал {Serezha} журавликов ,Катя сделала {Katya} журавликов')
+else:
+    print("Кажетя кто-то пи***т")

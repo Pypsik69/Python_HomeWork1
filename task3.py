@@ -6,4 +6,19 @@
 # Пример:
 # 385916 -> yes
 # 123456 -> no
-jakshdkjashdlkhaslkd
+input_number = int(input("Введите номер билета: "))
+num6 = input_number % 10
+temp5num = input_number // 10
+num5 = temp5num % 10
+temp4num = temp5num // 10
+num4 = temp4num % 10
+temp3num = temp4num // 10
+num3 = temp3num % 10
+temp2num = temp3num // 10
+num2 = temp2num % 10
+num1 = temp2num // 10
+
+if num1 + num2 + num3 == num4 + num5 + num6:
+    print("У вас билет с счастливым номером !")
+else:
+    print("У вас просто билет...(для #####)")
