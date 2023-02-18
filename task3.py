@@ -6,7 +6,7 @@
 # Пример:
 # 385916 -> yes
 # 123456 -> no
-input_number = int(input("Введите номер билета: "))
+input_number = int(input("Введите шестизначный номер билета: "))
 num6 = input_number % 10
 temp5num = input_number // 10
 num5 = temp5num % 10
