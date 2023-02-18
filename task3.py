@@ -6,3 +6,4 @@
 # Пример:
 # 385916 -> yes
 # 123456 -> no
+jakshdkjashdlkhaslkd
